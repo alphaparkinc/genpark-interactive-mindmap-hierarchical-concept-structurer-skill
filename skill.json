@@ -1,0 +1,35 @@
+{
+  "name": "genpark-interactive-mindmap-hierarchical-concept-structurer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Interactive conversational mind map generator, tree structuring & markdown DAG visualizer.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "mindmap-generator",
+    "concept-structuring",
+    "hierarchical-dag",
+    "brainstorming-tree",
+    "visual-thinking"
+  ],
+  "inputs": {
+    "prompt_topic": {
+      "type": "string"
+    },
+    "tree_depth": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "mindmap_markdown": {
+      "type": "string"
+    },
+    "total_nodes_generated": {
+      "type": "integer"
+    },
+    "root_branches": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
